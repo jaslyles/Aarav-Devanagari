@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nepali_jha_half" format="1">
+  <advance width="702"/>
+  <outline>
+    <contour>
+      <point x="526" y="664" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="737" y="374" type="line"/>
+      <point x="660" y="399"/>
+      <point x="558" y="312" type="qcurve"/>
+      <point x="558" y="0" type="line"/>
+      <point x="491" y="0" type="line"/>
+      <point x="491" y="286" type="line"/>
+      <point x="272" y="286" type="line"/>
+      <point x="272" y="233" type="line"/>
+      <point x="272" y="222"/>
+      <point x="252" y="206"/>
+      <point x="238" y="206" type="qcurve"/>
+      <point x="218" y="206"/>
+      <point x="119" y="306"/>
+      <point x="119" y="326" type="qcurve"/>
+      <point x="119" y="337"/>
+      <point x="138" y="353"/>
+      <point x="152" y="353" type="qcurve"/>
+      <point x="205" y="353" type="line"/>
+      <point x="205" y="546" type="line"/>
+      <point x="205" y="574"/>
+      <point x="170" y="613"/>
+      <point x="120" y="613"/>
+      <point x="85" y="585"/>
+      <point x="85" y="566" type="qcurve"/>
+      <point x="85" y="543"/>
+      <point x="120" y="513"/>
+      <point x="145" y="513" type="qcurve"/>
+      <point x="145" y="446" type="line"/>
+      <point x="93" y="446"/>
+      <point x="19" y="517"/>
+      <point x="19" y="566" type="qcurve"/>
+      <point x="19" y="613"/>
+      <point x="93" y="679"/>
+      <point x="197" y="679"/>
+      <point x="272" y="601"/>
+      <point x="272" y="546" type="qcurve"/>
+      <point x="272" y="353" type="line"/>
+      <point x="491" y="353" type="line"/>
+      <point x="491" y="606" type="line"/>
+      <point x="318" y="606" type="line"/>
+      <point x="318" y="666" type="line"/>
+      <point x="744" y="665" type="line"/>
+      <point x="744" y="605" type="line"/>
+      <point x="558" y="606" type="line"/>
+      <point x="558" y="395" type="line"/>
+      <point x="633" y="460"/>
+      <point x="738" y="435" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>
