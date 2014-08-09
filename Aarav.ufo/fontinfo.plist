@@ -7,20 +7,17 @@
 	<key>capHeight</key>
 	<integer>-1</integer>
 	<key>copyright</key>
-	<string>Copyright 2011-12 Lohit Fonts Project contributors.
-&lt;http://fedorahosted.org/lohit&gt;
-
-   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)</string>
+	<string>Copyright (c) 2014 by Google. All rights reserved.</string>
 	<key>descender</key>
 	<integer>-365</integer>
 	<key>familyName</key>
-	<string>Lohit Devanagari</string>
+	<string>Aarav Devanagari</string>
 	<key>italicAngle</key>
 	<real>0.0</real>
 	<key>macintoshFONDFamilyID</key>
 	<integer>128</integer>
 	<key>macintoshFONDName</key>
-	<string>Lohit Devanagari</string>
+	<string>Aarav Devanagari</string>
 	<key>openTypeHeadLowestRecPPEM</key>
 	<integer>8</integer>
 	<key>openTypeHheaAscender</key>
@@ -29,10 +26,18 @@
 	<integer>-515</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>266</integer>
+	<key>openTypeNameCompatibleFullName</key>
+	<string>Aarav Devanagari</string>
+	<key>openTypeNameDescription</key>
+	<string>Copyright (c) 2014 by Google. All rights reserved.</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>Aarav Devanagari</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
 	<key>openTypeNameUniqueID</key>
-	<string>FontForge 2.0 : Lohit Devanagari : 30-1-2013</string>
+	<string>PARK: Aarav Devanagari: 2014</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 2.5.3</string>
+	<string>Version 1.000 2014</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -96,7 +101,7 @@
 		<integer>45</integer>
 	</array>
 	<key>openTypeOS2VendorID</key>
-	<string>ACE</string>
+	<string>PARK</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WinAscent</key>
@@ -121,18 +126,18 @@
 	<array>
 	</array>
 	<key>postscriptFontName</key>
-	<string>Lohit-Devanagari</string>
+	<string>AaravDevanagari-Regular</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>Lohit Devanagari</string>
+	<string>Aarav Devanagari</string>
 	<key>postscriptIsFixedPitch</key>
 	<false/>
 	<key>postscriptOtherBlues</key>
 	<array>
 	</array>
 	<key>postscriptSlantAngle</key>
-	<real>0.0</real>
+	<real>-0.0</real>
 	<key>postscriptStemSnapH</key>
 	<array>
 	</array>
@@ -150,20 +155,22 @@
 	<key>postscriptWindowsCharacterSet</key>
 	<integer>1</integer>
 	<key>styleMapFamilyName</key>
-	<string>Lohit Devanagari</string>
+	<string>Aarav Devanagari</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
+	<key>trademark</key>
+	<string>Aarav Devanagari is a trademark of Google .</string>
 	<key>unitsPerEm</key>
 	<integer>1024</integer>
 	<key>versionMajor</key>
-	<integer>2</integer>
+	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>5</integer>
+	<integer>0</integer>
 	<key>xHeight</key>
 	<integer>-1</integer>
 	<key>year</key>
-	<integer>2013</integer>
+	<integer>2014</integer>
 </dict>
 </plist>
