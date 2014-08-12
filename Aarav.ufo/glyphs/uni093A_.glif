@@ -7,10 +7,10 @@
       <point x="-133" y="666" type="move" name="_mark0"/>
     </contour>
     <contour>
-      <point x="-163" y="666" type="line"/>
-      <point x="-163" y="821" type="line"/>
-      <point x="-101" y="821" type="line"/>
       <point x="-100" y="666" type="line"/>
+      <point x="-101" y="821" type="line"/>
+      <point x="-163" y="821" type="line"/>
+      <point x="-163" y="666" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,21 +28,8 @@
           <string>addPoint</string>
           <key>pt</key>
           <array>
-            <integer>-163</integer>
+            <integer>-100</integer>
             <integer>666</integer>
-          </array>
-          <key>segmentType</key>
-          <string>line</string>
-          <key>smooth</key>
-          <false/>
-        </dict>
-        <dict>
-          <key>method</key>
-          <string>addPoint</string>
-          <key>pt</key>
-          <array>
-            <integer>-163</integer>
-            <integer>821</integer>
           </array>
           <key>segmentType</key>
           <string>line</string>
@@ -67,7 +54,20 @@
           <string>addPoint</string>
           <key>pt</key>
           <array>
-            <integer>-100</integer>
+            <integer>-163</integer>
+            <integer>821</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>-163</integer>
             <integer>666</integer>
           </array>
           <key>segmentType</key>

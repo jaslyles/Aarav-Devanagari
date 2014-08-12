@@ -4,10 +4,10 @@
   <unicode hex="093C"/>
   <outline>
     <contour>
-      <point x="-526" y="-93" type="line"/>
-      <point x="-579" y="-47" type="line"/>
-      <point x="-526" y="7" type="line"/>
       <point x="-473" y="-47" type="line"/>
+      <point x="-526" y="7" type="line"/>
+      <point x="-579" y="-47" type="line"/>
+      <point x="-526" y="-93" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,20 +25,7 @@
           <string>addPoint</string>
           <key>pt</key>
           <array>
-            <integer>-526</integer>
-            <integer>-93</integer>
-          </array>
-          <key>segmentType</key>
-          <string>line</string>
-          <key>smooth</key>
-          <false/>
-        </dict>
-        <dict>
-          <key>method</key>
-          <string>addPoint</string>
-          <key>pt</key>
-          <array>
-            <integer>-579</integer>
+            <integer>-473</integer>
             <integer>-47</integer>
           </array>
           <key>segmentType</key>
@@ -64,8 +51,21 @@
           <string>addPoint</string>
           <key>pt</key>
           <array>
-            <integer>-473</integer>
+            <integer>-579</integer>
             <integer>-47</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>-526</integer>
+            <integer>-93</integer>
           </array>
           <key>segmentType</key>
           <string>line</string>
