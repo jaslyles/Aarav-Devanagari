@@ -7,6 +7,9 @@
       <point x="-137" y="681" type="move" name="_mark0"/>
     </contour>
     <contour>
+      <point x="-137" y="681" type="move" name="_mark0"/>
+    </contour>
+    <contour>
       <point x="-280" y="998" type="line"/>
       <point x="-280" y="1032" type="line"/>
       <point x="-15" y="1032" type="line"/>

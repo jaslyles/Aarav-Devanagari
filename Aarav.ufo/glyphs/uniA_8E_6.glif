@@ -7,6 +7,9 @@
       <point x="-137" y="679" type="move" name="_mark0"/>
     </contour>
     <contour>
+      <point x="-137" y="679" type="move" name="_mark0"/>
+    </contour>
+    <contour>
       <point x="-54" y="699" type="line"/>
       <point x="-65" y="709"/>
       <point x="-78" y="728" type="qcurve"/>

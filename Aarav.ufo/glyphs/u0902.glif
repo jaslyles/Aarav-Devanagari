@@ -7,24 +7,27 @@
       <point x="-133" y="666" type="move" name="_mark0"/>
     </contour>
     <contour>
-      <point x="-143" y="963" type="curve" smooth="yes"/>
-      <point x="-164" y="963"/>
-      <point x="-188" y="946"/>
-      <point x="-188" y="912" type="curve" smooth="yes"/>
-      <point x="-188" y="879"/>
-      <point x="-157" y="832"/>
-      <point x="-129" y="832" type="curve" smooth="yes"/>
-      <point x="-101" y="832"/>
-      <point x="-82" y="868"/>
-      <point x="-82" y="897" type="curve" smooth="yes"/>
-      <point x="-82" y="926"/>
-      <point x="-109" y="963"/>
+      <point x="-133" y="666" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-143" y="953" type="curve" smooth="yes"/>
+      <point x="-164" y="953"/>
+      <point x="-188" y="936"/>
+      <point x="-188" y="902" type="curve" smooth="yes"/>
+      <point x="-188" y="869"/>
+      <point x="-157" y="822"/>
+      <point x="-129" y="822" type="curve" smooth="yes"/>
+      <point x="-101" y="822"/>
+      <point x="-82" y="858"/>
+      <point x="-82" y="887" type="curve" smooth="yes"/>
+      <point x="-82" y="916"/>
+      <point x="-109" y="953"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.robofab.fontlab.mark</key>
-      <integer>1</integer>
+      <integer>130</integer>
       <key>org.robofab.fontlab.maskData</key>
       <array>
         <dict>

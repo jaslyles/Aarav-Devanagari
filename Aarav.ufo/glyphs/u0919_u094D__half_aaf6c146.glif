@@ -9,6 +9,12 @@
       <point x="487" y="664" type="move" name="mark0"/>
     </contour>
     <contour>
+      <point x="343" y="-138" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="487" y="664" type="move" name="mark0"/>
+    </contour>
+    <contour>
       <point x="643" y="373" type="qcurve"/>
       <point x="625" y="373"/>
       <point x="597" y="401"/>

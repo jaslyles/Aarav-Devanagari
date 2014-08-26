@@ -10,6 +10,12 @@
       <point x="515" y="664" type="move" name="mark0"/>
     </contour>
     <contour>
+      <point x="553" y="98" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="515" y="664" type="move" name="mark0"/>
+    </contour>
+    <contour>
       <point x="423" y="33" type="line"/>
       <point x="370" y="87" type="line"/>
       <point x="317" y="33" type="line"/>
