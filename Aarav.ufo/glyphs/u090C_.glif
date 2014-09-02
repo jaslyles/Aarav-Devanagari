@@ -134,7 +134,7 @@
   <lib>
     <dict>
       <key>org.robofab.fontlab.mark</key>
-      <integer>80</integer>
+      <integer>210</integer>
       <key>org.robofab.fontlab.maskData</key>
       <array>
         <dict>
