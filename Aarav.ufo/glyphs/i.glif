@@ -41,4 +41,10 @@
       <point x="155" y="477"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>80</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -3,138 +3,793 @@
   <advance width="565"/>
   <outline>
     <contour>
-      <point x="77" y="871" type="curve" smooth="yes"/>
-      <point x="77" y="849"/>
-      <point x="96" y="851"/>
-      <point x="127" y="851" type="curve" smooth="yes"/>
-      <point x="159" y="851"/>
-      <point x="270" y="879"/>
-      <point x="335" y="879" type="curve" smooth="yes"/>
-      <point x="400" y="879"/>
-      <point x="440" y="871"/>
-      <point x="457" y="871" type="curve" smooth="yes"/>
-      <point x="474" y="871"/>
-      <point x="480" y="875"/>
-      <point x="480" y="886" type="curve" smooth="yes"/>
-      <point x="480" y="897"/>
-      <point x="455" y="930"/>
-      <point x="363" y="930" type="curve" smooth="yes"/>
-      <point x="271" y="930"/>
-      <point x="141" y="904"/>
-      <point x="127" y="904" type="curve" smooth="yes"/>
-      <point x="111" y="904"/>
-      <point x="77" y="883"/>
+      <point x="323" y="632" type="curve"/>
+      <point x="323" y="618"/>
+      <point x="340" y="605"/>
+      <point x="340" y="527" type="curve" smooth="yes"/>
+      <point x="340" y="504"/>
+      <point x="340" y="469"/>
+      <point x="340" y="453" type="curve" smooth="yes"/>
+      <point x="340" y="440"/>
+      <point x="353" y="423"/>
+      <point x="368" y="423" type="curve" smooth="yes"/>
+      <point x="383" y="423"/>
+      <point x="431" y="444"/>
+      <point x="431" y="464" type="curve" smooth="yes"/>
+      <point x="431" y="483"/>
+      <point x="422" y="512"/>
+      <point x="422" y="562" type="curve" smooth="yes"/>
+      <point x="422" y="573"/>
+      <point x="423" y="608"/>
+      <point x="423" y="622" type="curve" smooth="yes"/>
+      <point x="423" y="662"/>
+      <point x="323" y="672"/>
     </contour>
     <contour>
-      <point x="279" y="771" type="curve" smooth="yes"/>
-      <point x="267" y="771"/>
-      <point x="240" y="758"/>
-      <point x="240" y="739" type="curve" smooth="yes"/>
-      <point x="240" y="720"/>
-      <point x="274" y="704"/>
-      <point x="283" y="693" type="curve" smooth="yes"/>
-      <point x="292" y="682"/>
-      <point x="342" y="588"/>
-      <point x="342" y="567" type="curve" smooth="yes"/>
-      <point x="342" y="544"/>
-      <point x="342" y="525"/>
-      <point x="342" y="509" type="curve" smooth="yes"/>
-      <point x="342" y="496"/>
-      <point x="360" y="474"/>
-      <point x="375" y="474" type="curve" smooth="yes"/>
-      <point x="390" y="474"/>
-      <point x="411" y="513"/>
-      <point x="411" y="533" type="curve" smooth="yes"/>
-      <point x="411" y="552"/>
-      <point x="395" y="567"/>
-      <point x="385" y="615" type="curve"/>
-      <point x="374" y="662"/>
-      <point x="347" y="736"/>
-      <point x="335" y="744" type="curve" smooth="yes"/>
-      <point x="324" y="752"/>
-      <point x="297" y="771"/>
+      <point x="456" y="340" type="line"/>
+      <point x="415" y="340"/>
+      <point x="358" y="334"/>
+      <point x="306" y="334" type="curve" smooth="yes"/>
+      <point x="222" y="334"/>
+      <point x="160" y="353"/>
+      <point x="160" y="388" type="curve" smooth="yes"/>
+      <point x="160" y="412"/>
+      <point x="224" y="437"/>
+      <point x="313" y="437" type="curve" smooth="yes"/>
+      <point x="333" y="437"/>
+      <point x="351" y="435"/>
+      <point x="366" y="431" type="curve" smooth="yes"/>
+      <point x="379" y="427"/>
+      <point x="395" y="481"/>
+      <point x="395" y="495" type="curve" smooth="yes"/>
+      <point x="395" y="509"/>
+      <point x="306" y="513"/>
+      <point x="291" y="513" type="curve" smooth="yes"/>
+      <point x="133" y="513"/>
+      <point x="70" y="458"/>
+      <point x="70" y="398" type="curve" smooth="yes"/>
+      <point x="70" y="333"/>
+      <point x="131" y="285"/>
+      <point x="219" y="273" type="curve" smooth="yes"/>
+      <point x="242" y="270"/>
+      <point x="295" y="268"/>
+      <point x="380" y="276" type="curve"/>
     </contour>
     <contour>
-      <point x="263" y="596" type="curve" smooth="yes"/>
-      <point x="229" y="596"/>
-      <point x="160" y="540"/>
-      <point x="160" y="490" type="curve" smooth="yes"/>
-      <point x="160" y="439"/>
-      <point x="238" y="361"/>
-      <point x="270" y="361" type="curve" smooth="yes"/>
-      <point x="300" y="361"/>
-      <point x="383" y="339"/>
-      <point x="383" y="302" type="curve" smooth="yes"/>
-      <point x="383" y="267"/>
-      <point x="320" y="240"/>
-      <point x="296" y="240" type="curve" smooth="yes"/>
-      <point x="226" y="240"/>
-      <point x="197" y="306"/>
-      <point x="171" y="306" type="curve" smooth="yes"/>
-      <point x="145" y="306"/>
-      <point x="117" y="283"/>
-      <point x="117" y="255" type="curve" smooth="yes"/>
-      <point x="117" y="228"/>
-      <point x="161" y="198"/>
-      <point x="193" y="198" type="curve" smooth="yes"/>
-      <point x="225" y="198"/>
-      <point x="254" y="186"/>
-      <point x="313" y="186" type="curve" smooth="yes"/>
-      <point x="393" y="186"/>
-      <point x="457" y="256"/>
-      <point x="457" y="305" type="curve" smooth="yes"/>
-      <point x="457" y="353"/>
-      <point x="383" y="426"/>
-      <point x="350" y="426" type="curve" smooth="yes"/>
-      <point x="275" y="426"/>
-      <point x="240" y="447"/>
-      <point x="240" y="493" type="curve" smooth="yes"/>
-      <point x="240" y="518"/>
-      <point x="266" y="534"/>
-      <point x="276" y="545" type="curve" smooth="yes"/>
-      <point x="285" y="555"/>
-      <point x="296" y="562"/>
-      <point x="296" y="576" type="curve" smooth="yes"/>
-      <point x="296" y="590"/>
-      <point x="278" y="596"/>
+      <point x="539" y="293" type="curve" smooth="yes"/>
+      <point x="539" y="315"/>
+      <point x="522" y="345"/>
+      <point x="489" y="345" type="curve" smooth="yes"/>
+      <point x="457" y="345"/>
+      <point x="456" y="340"/>
+      <point x="428" y="334" type="curve" smooth="yes"/>
+      <point x="400" y="330"/>
+      <point x="97" y="300"/>
+      <point x="96" y="156" type="curve" smooth="yes"/>
+      <point x="95" y="23"/>
+      <point x="376" y="-11"/>
+      <point x="416" y="-11" type="curve" smooth="yes"/>
+      <point x="457" y="-11"/>
+      <point x="476" y="16"/>
+      <point x="476" y="32" type="curve" smooth="yes"/>
+      <point x="476" y="75"/>
+      <point x="447" y="84"/>
+      <point x="436" y="84" type="curve" smooth="yes"/>
+      <point x="425" y="84"/>
+      <point x="407" y="78"/>
+      <point x="364" y="78" type="curve" smooth="yes"/>
+      <point x="349" y="78"/>
+      <point x="188" y="102"/>
+      <point x="188" y="163" type="curve" smooth="yes"/>
+      <point x="188" y="211"/>
+      <point x="271" y="245"/>
+      <point x="327" y="254" type="curve" smooth="yes"/>
+      <point x="382" y="262"/>
+      <point x="403" y="263"/>
+      <point x="426" y="263" type="curve" smooth="yes"/>
+      <point x="449" y="263"/>
+      <point x="467" y="242"/>
+      <point x="483" y="242" type="curve" smooth="yes"/>
+      <point x="498" y="242"/>
+      <point x="539" y="262"/>
     </contour>
     <contour>
-      <point x="579" y="293" type="curve" smooth="yes"/>
-      <point x="579" y="315"/>
-      <point x="562" y="345"/>
-      <point x="529" y="345" type="curve" smooth="yes"/>
-      <point x="497" y="345"/>
-      <point x="496" y="340"/>
-      <point x="468" y="334" type="curve" smooth="yes"/>
-      <point x="440" y="328"/>
-      <point x="106" y="244"/>
-      <point x="106" y="114" type="curve" smooth="yes"/>
-      <point x="106" y="-63"/>
-      <point x="396" y="-145"/>
-      <point x="436" y="-145" type="curve" smooth="yes"/>
-      <point x="477" y="-145"/>
-      <point x="496" y="-118"/>
-      <point x="496" y="-102" type="curve" smooth="yes"/>
-      <point x="496" y="-86"/>
-      <point x="468" y="-62"/>
-      <point x="457" y="-62" type="curve" smooth="yes"/>
-      <point x="446" y="-62"/>
-      <point x="425" y="-75"/>
-      <point x="411" y="-75" type="curve" smooth="yes"/>
-      <point x="396" y="-75"/>
-      <point x="175" y="-11"/>
-      <point x="175" y="100" type="curve" smooth="yes"/>
-      <point x="175" y="167"/>
-      <point x="291" y="220"/>
-      <point x="347" y="235" type="curve" smooth="yes"/>
-      <point x="402" y="249"/>
-      <point x="443" y="257"/>
-      <point x="466" y="257" type="curve" smooth="yes"/>
-      <point x="489" y="257"/>
-      <point x="507" y="239"/>
-      <point x="523" y="239" type="curve" smooth="yes"/>
-      <point x="538" y="239"/>
-      <point x="579" y="262"/>
+      <point x="38" y="590" type="line"/>
+      <point x="54" y="590"/>
+      <point x="125" y="593"/>
+      <point x="195" y="593" type="curve" smooth="yes"/>
+      <point x="291" y="593"/>
+      <point x="384" y="589"/>
+      <point x="409" y="589" type="curve" smooth="yes"/>
+      <point x="483" y="589"/>
+      <point x="505" y="590"/>
+      <point x="528" y="590" type="curve" smooth="yes"/>
+      <point x="572" y="590" type="line" smooth="yes"/>
+      <point x="585" y="590"/>
+      <point x="598" y="608"/>
+      <point x="598" y="634" type="curve" smooth="yes"/>
+      <point x="598" y="650"/>
+      <point x="584" y="666"/>
+      <point x="572" y="666" type="curve" smooth="yes"/>
+      <point x="528" y="666" type="line" smooth="yes"/>
+      <point x="518" y="666"/>
+      <point x="482" y="662"/>
+      <point x="407" y="663" type="curve" smooth="yes"/>
+      <point x="330" y="664"/>
+      <point x="242" y="665"/>
+      <point x="197" y="665" type="curve" smooth="yes"/>
+      <point x="135" y="665"/>
+      <point x="65" y="666"/>
+      <point x="38" y="666" type="curve" smooth="yes"/>
+      <point x="-6" y="666" type="line" smooth="yes"/>
+      <point x="-19" y="666"/>
+      <point x="-20" y="645"/>
+      <point x="-29" y="633" type="curve" smooth="yes"/>
+      <point x="-31" y="630"/>
+      <point x="-32" y="627"/>
+      <point x="-32" y="623" type="curve" smooth="yes"/>
+      <point x="-32" y="608"/>
+      <point x="-16" y="590"/>
+      <point x="-6" y="590" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>170</integer>
+      <key>org.robofab.fontlab.maskData</key>
+      <array>
+        <dict>
+          <key>method</key>
+          <string>beginPath</string>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>-13</integer>
+            <integer>606</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>-13</integer>
+            <integer>666</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>579</integer>
+            <integer>666</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>579</integer>
+            <integer>606</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>442</integer>
+            <integer>606</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>442</integer>
+            <integer>446</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>169</integer>
+            <integer>446</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>150</integer>
+            <integer>446</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>123</integer>
+            <integer>430</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>123</integer>
+            <integer>419</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>123</integer>
+            <integer>394</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>158</integer>
+            <integer>350</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>189</integer>
+            <integer>340</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>555</integer>
+            <integer>340</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>555</integer>
+            <integer>280</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>276</integer>
+            <integer>280</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>212</integer>
+            <integer>280</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>123</integer>
+            <integer>213</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>123</integer>
+            <integer>166</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>123</integer>
+            <integer>123</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>298</integer>
+            <integer>37</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>435</integer>
+            <integer>13</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>395</integer>
+            <integer>-33</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>248</integer>
+            <integer>-7</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>56</integer>
+            <integer>105</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>56</integer>
+            <integer>166</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>56</integer>
+            <integer>205</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>103</integer>
+            <integer>277</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>142</integer>
+            <integer>300</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>103</integer>
+            <integer>318</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>56</integer>
+            <integer>384</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>56</integer>
+            <integer>419</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>56</integer>
+            <integer>455</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>123</integer>
+            <integer>506</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>169</integer>
+            <integer>506</integer>
+          </array>
+          <key>segmentType</key>
+          <string>qcurve</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>376</integer>
+            <integer>506</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>376</integer>
+            <integer>606</integer>
+          </array>
+          <key>segmentType</key>
+          <string>line</string>
+          <key>smooth</key>
+          <false/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>endPath</string>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>beginPath</string>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>79</integer>
+            <integer>665</integer>
+          </array>
+          <key>segmentType</key>
+          <string>curve</string>
+          <key>smooth</key>
+          <true/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>79</integer>
+            <integer>643</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>98</integer>
+            <integer>645</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>129</integer>
+            <integer>645</integer>
+          </array>
+          <key>segmentType</key>
+          <string>curve</string>
+          <key>smooth</key>
+          <true/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>161</integer>
+            <integer>645</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>272</integer>
+            <integer>673</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>337</integer>
+            <integer>673</integer>
+          </array>
+          <key>segmentType</key>
+          <string>curve</string>
+          <key>smooth</key>
+          <true/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>402</integer>
+            <integer>673</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>442</integer>
+            <integer>665</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>459</integer>
+            <integer>665</integer>
+          </array>
+          <key>segmentType</key>
+          <string>curve</string>
+          <key>smooth</key>
+          <true/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>476</integer>
+            <integer>665</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>482</integer>
+            <integer>669</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>482</integer>
+            <integer>680</integer>
+          </array>
+          <key>segmentType</key>
+          <string>curve</string>
+          <key>smooth</key>
+          <true/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>482</integer>
+            <integer>691</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>457</integer>
+            <integer>724</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>365</integer>
+            <integer>724</integer>
+          </array>
+          <key>segmentType</key>
+          <string>curve</string>
+          <key>smooth</key>
+          <true/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>273</integer>
+            <integer>724</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>143</integer>
+            <integer>698</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>129</integer>
+            <integer>698</integer>
+          </array>
+          <key>segmentType</key>
+          <string>curve</string>
+          <key>smooth</key>
+          <true/>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>113</integer>
+            <integer>698</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>addPoint</string>
+          <key>pt</key>
+          <array>
+            <integer>79</integer>
+            <integer>677</integer>
+          </array>
+        </dict>
+        <dict>
+          <key>method</key>
+          <string>endPath</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>
