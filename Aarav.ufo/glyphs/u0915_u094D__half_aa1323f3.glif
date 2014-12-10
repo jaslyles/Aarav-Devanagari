@@ -3,16 +3,16 @@
   <advance width="787"/>
   <outline>
     <contour>
-      <point x="412" y="31" type="move" name="mark0"/>
+      <point x="391" y="37" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="410" y="666" type="move" name="mark0"/>
+      <point x="421" y="666" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="412" y="31" type="move" name="mark0"/>
+      <point x="391" y="37" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="410" y="666" type="move" name="mark0"/>
+      <point x="421" y="666" type="move" name="mark0"/>
     </contour>
     <contour>
       <point x="423" y="619" type="curve" smooth="yes"/>

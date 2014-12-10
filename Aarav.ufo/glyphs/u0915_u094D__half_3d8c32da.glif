@@ -3,13 +3,13 @@
   <advance width="772"/>
   <outline>
     <contour>
-      <point x="398" y="23" type="move" name="mark0"/>
+      <point x="385" y="36" type="move" name="mark0"/>
     </contour>
     <contour>
       <point x="403" y="665" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="398" y="23" type="move" name="mark0"/>
+      <point x="385" y="36" type="move" name="mark0"/>
     </contour>
     <contour>
       <point x="403" y="665" type="move" name="mark0"/>

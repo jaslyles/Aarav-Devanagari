@@ -822,6 +822,18 @@
           <string>endPath</string>
         </dict>
       </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+        <key>vLinks</key>
+        <array>
+          <dict>
+            <key>node1</key>
+            <integer>3</integer>
+            <key>node2</key>
+            <integer>13</integer>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

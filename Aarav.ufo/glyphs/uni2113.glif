@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2113" format="1">
+  <advance width="407"/>
+  <unicode hex="2113"/>
+  <outline>
+    <contour>
+      <point x="200" y="577" type="curve" smooth="yes"/>
+      <point x="230" y="577"/>
+      <point x="239" y="519"/>
+      <point x="239" y="489" type="curve" smooth="yes"/>
+      <point x="239" y="382"/>
+      <point x="201" y="299"/>
+      <point x="89" y="288" type="curve" smooth="yes"/>
+      <point x="75" y="287"/>
+      <point x="37" y="273"/>
+      <point x="37" y="236" type="curve" smooth="yes"/>
+      <point x="37" y="181"/>
+      <point x="91" y="198"/>
+      <point x="108" y="203" type="curve" smooth="yes"/>
+      <point x="260" y="252"/>
+      <point x="321" y="347"/>
+      <point x="321" y="481" type="curve" smooth="yes"/>
+      <point x="321" y="587"/>
+      <point x="281" y="674"/>
+      <point x="189" y="680" type="curve" smooth="yes"/>
+      <point x="123" y="684"/>
+      <point x="90" y="612"/>
+      <point x="90" y="527" type="curve" smooth="yes"/>
+      <point x="90" y="406"/>
+      <point x="79" y="253"/>
+      <point x="79" y="135" type="curve" smooth="yes"/>
+      <point x="79" y="65"/>
+      <point x="143" y="-5"/>
+      <point x="212" y="-5" type="curve" smooth="yes"/>
+      <point x="275" y="-5"/>
+      <point x="353" y="15"/>
+      <point x="356" y="93" type="curve" smooth="yes"/>
+      <point x="357" y="119"/>
+      <point x="338" y="130"/>
+      <point x="324" y="135" type="curve" smooth="yes"/>
+      <point x="285" y="148"/>
+      <point x="272" y="106"/>
+      <point x="269" y="95" type="curve" smooth="yes"/>
+      <point x="264" y="75"/>
+      <point x="238" y="71"/>
+      <point x="220" y="71" type="curve" smooth="yes"/>
+      <point x="196" y="71"/>
+      <point x="168" y="89"/>
+      <point x="168" y="153" type="curve" smooth="yes"/>
+      <point x="168" y="266"/>
+      <point x="170" y="421"/>
+      <point x="172" y="501" type="curve" smooth="yes"/>
+      <point x="173" y="546"/>
+      <point x="176" y="577"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>80</integer>
+    </dict>
+  </lib>
+</glyph>

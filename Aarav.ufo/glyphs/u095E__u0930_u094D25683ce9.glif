@@ -6,13 +6,13 @@
       <point x="406" y="23" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="403" y="664" type="move" name="mark0"/>
+      <point x="410" y="660" type="move" name="mark0"/>
     </contour>
     <contour>
       <point x="406" y="23" type="move" name="mark0"/>
     </contour>
     <contour>
-      <point x="403" y="664" type="move" name="mark0"/>
+      <point x="410" y="660" type="move" name="mark0"/>
     </contour>
     <contour>
       <point x="31" y="113" type="curve" smooth="yes"/>
