@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aring" format="1">
+  <advance width="553"/>
+  <unicode hex="00E5"/>
+  <outline>
+    <component base="a" xOffset="-3"/>
+    <component base="ring" xOffset="129" yOffset="4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.robofab.fontlab.mark</key>
+      <integer>0</integer>
+    </dict>
+  </lib>
+</glyph>

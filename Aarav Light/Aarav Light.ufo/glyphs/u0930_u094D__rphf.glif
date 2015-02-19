@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u0930_u094D.rphf" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-71" y="613" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-71" y="613" type="move" name="_mark0"/>
+    </contour>
+    <contour>
+      <point x="-106" y="632" type="curve" smooth="yes"/>
+      <point x="-89" y="632"/>
+      <point x="-72" y="640"/>
+      <point x="-69" y="654" type="curve" smooth="yes"/>
+      <point x="-67" y="662"/>
+      <point x="-71" y="667"/>
+      <point x="-75" y="669" type="curve" smooth="yes"/>
+      <point x="-98" y="687"/>
+      <point x="-139" y="747"/>
+      <point x="-139" y="789" type="curve" smooth="yes"/>
+      <point x="-139" y="844"/>
+      <point x="-88" y="877"/>
+      <point x="-37" y="877" type="curve" smooth="yes"/>
+      <point x="-1" y="877"/>
+      <point x="10" y="860"/>
+      <point x="35" y="860" type="curve" smooth="yes"/>
+      <point x="47" y="860"/>
+      <point x="56" y="866"/>
+      <point x="57" y="883" type="curve" smooth="yes"/>
+      <point x="58" y="899"/>
+      <point x="52" y="914"/>
+      <point x="39" y="916" type="curve" smooth="yes"/>
+      <point x="4" y="922"/>
+      <point x="-21" y="931"/>
+      <point x="-55" y="931" type="curve" smooth="yes"/>
+      <point x="-140" y="931"/>
+      <point x="-194" y="851"/>
+      <point x="-194" y="795" type="curve" smooth="yes"/>
+      <point x="-194" y="747"/>
+      <point x="-167" y="692"/>
+      <point x="-148" y="669" type="curve" smooth="yes"/>
+      <point x="-138" y="656"/>
+      <point x="-125" y="632"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,829 @@
+feature blwm { # Below-Base Mark Positioning
+ script deva; # Devanagari
+lookup blwm0 {
+#    mark u0941 -143 61;
+#    mark u0942 -130 69;
+#    mark u0943 -127 50;
+#    mark u0944 -130 69;
+#    mark u094D -119 42;
+#    mark uni0956 -259 -1;
+#    mark uni0957 -265 0;
+#    mark u0962 -141 37;
+#    mark u0963 -138 34;
+#    mark u0930_u094D.blwf -135 74;
+#    mark u0930_u094D.blwf_u0941.blws -127 63;
+#    mark u0930_u094D.blwf_u0942.blws -127 58;
+#    mark glyph242 -130 -29;
+#    mark glyph243 -138 -34;
+#    pos u090B mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 471 26;
+#    pos u0915 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 380 23;
+#    pos u0916 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 695 29;
+#    pos u0919 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 394 50;
+#    pos u091B mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 322 61;
+#    pos u091F mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 324 45;
+#    pos u0920 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 316 39;
+#    pos u0921 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 378 45;
+#    pos u0922 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 332 47;
+#    pos u0923 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 529 29;
+#    pos u0926 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 458 7;
+#    pos u092B mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 391 23;
+#    pos u092F mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 466 26;
+#    pos u0933 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 527 101;
+#    pos u0934 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 553 98;
+#    pos u0939 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 335 2;
+#    pos u0958 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 386 23;
+#    pos u095C mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 407 50;
+#    pos u095D mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 332 58;
+#    pos u095E mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 380 21;
+#    pos u0960 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 468 15;
+#    pos uni0976 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 640 711;
+#    pos uni0977 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 640 711;
+#    pos uni097A mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 466 26;
+#    pos uniA8F8 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 324 55;
+#    pos uniA8F9 mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 324 55;
+#    pos u095E_u0930_u094D.blwf.vatu mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 415 23;
+#    pos u0915_u0930_u094D.blwf.vatu mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 394 31;
+#    pos u0916_u0930_u094D.blwf.vatu mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 692 15;
+#    pos u092B_u0930_u094D.blwf.vatu mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 412 15;
+#    pos u0939_u0930_u094D.blwf.vatu mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 330 -85;
+#    pos u0915_u094D.half_u0915.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 402 31;
+#    pos u0915_u094D.half_u0924.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 436 23;
+#    pos u0915_u094D.half_u0932.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 551 -111;
+#    pos u0915_u094D.half_u0935.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 398 23;
+#    pos u0919_u094D.half_u0915.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 343 -138;
+#    pos u0919_u094D.half_u0916.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 474 -90;
+#    pos u0919_u094D.half_u0917.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 450 -90;
+#    pos u0919_u094D.half_u0918.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 442 -117;
+#    pos u0919_u094D.half_u092E.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 495 -106;
+#    pos u0919_u094D.half_u0915_u094D_u0937.akhn.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 500 -63;
+#    pos u091B_u094D.half_u0935.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 452 -103;
+#    pos u091F_u094D.half_u091F.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 308 -117;
+#    pos u091F_u094D.half_u0920.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 311 -101;
+#    pos u091F_u094D.half_u092F.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 1078 23;
+#    pos u091F_u094D.half_u0935.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 416 -146;
+#    pos u0920_u094D.half_u0920.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 319 -106;
+#    pos u0921_u094D.half_u0921.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 370 -114;
+#    pos u0921_u094D.half_u0922.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 410 -178;
+#    pos u0922_u094D.half_u0922.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 338 -109;
+#    pos u0926_u094D.half_u0917.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 447 5;
+#    pos u0926_u094D.half_u0918.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 601 -79;
+#    pos u0926_u094D.half_u0926.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 474 -13;
+#    pos u0926_u094D.half_u0927.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 665 -82;
+#    pos u0926_u094D.half_u0928.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 500 23;
+#    pos u0926_u094D.half_u092C.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 458 13;
+#    pos u0926_u094D.half_u092D.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 545 13;
+#    pos u0926_u094D.half_u0935.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 479 10;
+#    pos u092A_u094D.half_u0932.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 466 -31;
+#    pos u092B_u094D.half_u0932.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 532 -106;
+#    pos u0932_u094D.half_u0932.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 612 18;
+#    pos u0936_u094D.half_u0930_u094D.blwf.vatu_u0932.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 780 23;
+#    pos u0937_u094D.half_u091F.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 338 18;
+#    pos u0937_u094D.half_u0920.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 316 26;
+#    pos u0939_u094D.half_u0923.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 633 15;
+#    pos u0939_u094D.half_u0928.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 540 23;
+#    pos u0939_u094D.half_u092E.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 612 15;
+#    pos u0939_u094D.half_u092F.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 668 21;
+#    pos u0939_u094D.half_u0932.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 567 21;
+#    pos u0939_u094D.half_u0935.pres mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 490 18;
+#    pos npu0915_u0930_u094D.blwf.vatu mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 394 31;
+#    pos lig_0926_0927_0930_092f mark [u0941 u0942 u0943 u0944 u094D uni0956 uni0957 u0962 u0963 u0930_u094D.blwf u0930_u094D.blwf_u0941.blws u0930_u094D.blwf_u0942.blws glyph242 glyph243] 1162 -21;
+} blwm0;
+lookup blwm5 {
+    pos u0918 u093C 0;
+    pos u0919 u093C 0;
+    pos u091A u093C 0;
+    pos u091B u093C 0;
+    pos u091D u093C 0;
+    pos u091E u093C 0;
+    pos u091F u093C 0;
+    pos u0920 u093C 0;
+    pos u0923 u093C 0;
+    pos u0924 u093C 0;
+    pos u0925 u093C 0;
+    pos u0926 u093C 0;
+    pos u0927 u093C 0;
+    pos u092A u093C 0;
+    pos u092C u093C 0;
+    pos u092D u093C 0;
+    pos u092E u093C 0;
+    pos u0932 u093C 0;
+    pos u0935 u093C 0;
+    pos u0936 u093C 0;
+    pos u0937 u093C 0;
+    pos u0938 u093C 0;
+    pos u0939 u093C 0;
+} blwm5;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} blwm;
+feature abvm { # Above-Base Mark Positioning
+ script deva; # Devanagari
+lookup abvm1 {
+} abvm1;
+lookup abvm2 {
+#    mark uni0900 -127 5;
+#    mark u0901 -127 5;
+#    mark uni0955 -127 5;
+#    pos u0940 mark [uni0900 u0901 uni0955] 263 55;
+#    pos u094B mark [uni0900 u0901 uni0955] 231 111;
+#    pos u094C mark [uni0900 u0901 uni0955] 335 71;
+#    pos uni094F mark [uni0900 u0901 uni0955] 335 71;
+#    pos glyph236 mark [uni0900 u0901 uni0955] 207 111;
+} abvm2;
+lookup abvm3 {
+#    mark uni0900 -120 666;
+#    mark u0901 -120 666;
+#    mark u0902 -133 666;
+#    mark uni093A -133 666;
+#    mark u0945 -127 665;
+#    mark u0946 -127 665;
+#    mark u0947 -122 664;
+#    mark u0948 -135 664;
+#    mark u0951 -127 666;
+#    mark u0953 -69 664;
+#    mark u0954 -143 665;
+#    mark uni0955 -120 666;
+#    mark uniA8E0 -127 721;
+#    mark uniA8E1 -137 681;
+#    mark uniA8E2 -137 675;
+#    mark uniA8E3 -147 671;
+#    mark uniA8E4 -130 681;
+#    mark uniA8E5 -137 681;
+#    mark uniA8E6 -137 679;
+#    mark uniA8E7 -137 681;
+#    mark uniA8E8 -137 681;
+#    mark uniA8E9 -137 674;
+#    mark uniA8EA -137 681;
+#    mark uniA8EB -137 681;
+#    mark uniA8EC -131 681;
+#    mark uniA8ED -137 681;
+#    mark uniA8EE -137 681;
+#    mark uniA8EF -137 681;
+#    mark uniA8F0 -137 681;
+#    mark uniA8F1 -137 681;
+#    mark u0947_u0902.abvs -122 636;
+#    mark u0947_u0930_u094D.rphf.abvs -117 644;
+#    mark u0947_u0930_u094D.rphf.abvs_u0902.abvs -127 644;
+#    mark u0948_u0902.abvs -138 636;
+#    mark u0948_u0930_u094D.rphf.abvs -111 631;
+#    mark u0948_u0930_u094D.rphf.abvs_u0902.abvs -103 631;
+#    mark u0930_u094D.rphf -71 633;
+#    mark u0930_u094D.rphf_u0902.abvs -109 636;
+#    pos u0905 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 636 664;
+#    pos u0906 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 792 664;
+#    pos u0907 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 377 664;
+#    pos u0908 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 439 579;
+#    pos u0909 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 461 664;
+#    pos u090A mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 453 664;
+#    pos u090B mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 460 664;
+#    pos u090F mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 265 664;
+#    pos u0915 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 381 664;
+#    pos u0916 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 693 664;
+#    pos u0917 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 386 664;
+#    pos u0918 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 506 664;
+#    pos u0919 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 499 664;
+#    pos u091A mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 503 664;
+#    pos u091B mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 526 664;
+#    pos u091C mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 596 664;
+#    pos u091D mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 600 664;
+#    pos u091E mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 603 664;
+#    pos u091F mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 421 664;
+#    pos u0920 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 422 664;
+#    pos u0921 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 495 664;
+#    pos u0922 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 428 664;
+#    pos u0923 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 540 664;
+#    pos u0924 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 478 664;
+#    pos u0925 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 555 664;
+#    pos u0926 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 417 666;
+#    pos u0927 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 520 664;
+#    pos u0928 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 455 664;
+#    pos u0929 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 452 666;
+#    pos u092A mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 404 664;
+#    pos u092B mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 386 664;
+#    pos u092C mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 407 666;
+#    pos u092D mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 526 664;
+#    pos u092E mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 447 664;
+#    pos u092F mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 464 664;
+#    pos u0930 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 331 664;
+#    pos u0931 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 335 665;
+#    pos u0932 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 597 664;
+#    pos u0933 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 519 664;
+#    pos u0934 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 515 664;
+#    pos u0935 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 410 665;
+#    pos u0936 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 545 664;
+#    pos u0937 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 403 666;
+#    pos u0938 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 576 664;
+#    pos u0939 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 401 666;
+#    pos u0958 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 385 664;
+#    pos u0959 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 707 664;
+#    pos u095A mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 392 666;
+#    pos u095B mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 603 664;
+#    pos u095C mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 502 664;
+#    pos u095D mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 427 664;
+#    pos u095E mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 379 664;
+#    pos u095F mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 465 665;
+#    pos u0960 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 467 666;
+#    pos uni0972 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 636 664;
+#    pos uni0973 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 636 664;
+#    pos uni097A mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 464 664;
+#    pos uni097B mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 390 663;
+#    pos uni097C mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 596 666;
+#    pos uni097E mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 497 666;
+#    pos uni097F mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 406 665;
+#    pos uniA8F8 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 529 667;
+#    pos uniA8F9 mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 529 667;
+#    pos u0936_u0930_u094D.blwf.vatu mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 578 664;
+#    pos u095E_u0930_u094D.blwf.vatu mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 412 664;
+#    pos u0915_u094D_u0937.akhn mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 528 666;
+#    pos u091C_u094D_u091E.akhn mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 579 665;
+#    pos u0915_u0930_u094D.blwf.vatu mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 396 666;
+#    pos u092B_u0930_u094D.blwf.vatu mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 411 666;
+#    pos u0915_u094D.half_u0915.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 400 666;
+#    pos u0915_u094D.half_u0924.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 434 664;
+#    pos u0915_u094D.half_u0932.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 394 664;
+#    pos u0915_u094D.half_u0935.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 403 665;
+#    pos u0919_u094D.half_u0915.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 487 664;
+#    pos u0919_u094D.half_u0916.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 503 664;
+#    pos u0919_u094D.half_u0917.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 470 664;
+#    pos u0919_u094D.half_u0918.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 473 666;
+#    pos u0919_u094D.half_u092E.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 496 664;
+#    pos u0919_u094D.half_u0915_u094D_u0937.akhn.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 492 666;
+#    pos u092B_u094D.half_u0932.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 399 664;
+#    pos u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 494 664;
+#    pos u0939_u094D.half_u0923.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 417 664;
+#    pos u0939_u094D.half_u0928.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 422 664;
+#    pos u0939_u094D.half_u092E.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 609 665;
+#    pos u0939_u094D.half_u092F.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 666 664;
+#    pos u0939_u094D.half_u0932.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 421 664;
+#    pos u0939_u094D.half_u0935.pres mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 420 664;
+#    pos u0930_u0941.psts mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 280 664;
+#    pos u0930_u0942.psts mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 279 664;
+#    pos npu0915_u0930_u094D.blwf.vatu mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 396 666;
+#    pos nepali_jha_091d mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 526 664;
+#    pos nepali_jha_half mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 526 664;
+#    pos mr_la mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 597 664;
+#    pos mr_sha mark [uni0900 u0901 u0902 uni093A u0945 u0946 u0947 u0948 u0951 u0953 u0954 uni0955 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 u0947_u0902.abvs u0947_u0930_u094D.rphf.abvs u0947_u0930_u094D.rphf.abvs_u0902.abvs u0948_u0902.abvs u0948_u0930_u094D.rphf.abvs u0948_u0930_u094D.rphf.abvs_u0902.abvs u0930_u094D.rphf u0930_u094D.rphf_u0902.abvs] 545 663;
+} abvm3;
+lookup abvm4 {
+    pos u093F u0902 0;
+    pos u0946 u0902 0;
+    pos u094C u0902 0;
+    pos u0947_u0930_u094D.rphf.abvs u0902 0;
+    pos u0948_u0930_u094D.rphf.abvs u0902 0;
+    pos glyph206 u0902 0;
+    pos glyph227 u0902 0;
+    pos glyph229 u0902 0;
+    pos glyph231 u0902 0;
+    pos u0940_u0930_u094D.rphf.abvs u0902 0;
+    pos glyph236 u0902 0;
+    pos glyph238 u0902 0;
+    pos u094B_u0930_u094D.rphf.abvs u0902 0;
+    pos u094C_u0930_u094D.rphf.abvs u0902 0;
+} abvm4;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} abvm;
+feature locl { # Localized Forms
+ script deva; # Devanagari
+ language NEP  exclude_dflt; # Nepali
+lookup locl8 {
+    sub [u091D u096B u096E] by [nepali_jha_091d np5 np8];
+} locl8;
+lookup locl85 {
+    sub u0915 u0930 u094D by npu0915_u0930_u094D.blwf.vatu;
+} locl85;
+ language MAR  exclude_dflt; # Marathi
+lookup locl6 {
+    sub [u0932 u0936] by [mr_la mr_sha];
+} locl6;
+lookup locl7 {
+    sub u0936 u094D u0935 by u0936_u094D.half_u0930_u094D.blwf.vatu_u0935.pres;
+    sub u0936 u094D u0928 by u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres;
+    sub u0936 u094D u091A by u0936_u094D.half_u0930_u094D.blwf.vatu_u091A.pres;
+} locl7;
+lookup locl58 {
+    sub mr_sha u094D by mr_sha_half;
+} locl58;
+} locl;
+feature pres { # Pre-base Substitutions
+ script deva; # Devanagari
+lookup pres9 {
+    sub u093F' @pres3 by glyph206;
+} pres9;
+lookup pres60 {
+    sub u093F' u0930 by glyph229;
+} pres60;
+lookup pres61 {
+    sub u093F' u0931 by glyph229;
+} pres61;
+lookup pres62 {
+    sub u093F' u091F_u094D.half_u092F.pres by glyph206;
+} pres62;
+lookup pres63 {
+    sub u093F' u0920_u094D.half_u092F.pres by glyph206;
+} pres63;
+lookup pres64 {
+    sub u093F' u0921_u094D.half_u092F.pres by glyph206;
+} pres64;
+lookup pres65 {
+    sub u093F' u0922_u094D.half_u092F.pres by glyph206;
+} pres65;
+lookup pres66 {
+    sub u093F' u091F_u094D.half_u091F.pres by glyph229;
+} pres66;
+lookup pres67 {
+    sub u093F' u091F_u094D.half_u0920.pres by glyph229;
+} pres67;
+lookup pres68 {
+    sub u0936 u0943 by glyph263;
+    sub u0915_u094D.half u0924 by u0915_u094D.half_u0924.pres;
+    sub u0917_u094D.half u0928 by u0917_u094D.half_u0928.pres;
+    sub u0919_u094D.half u0915_u094D_u0937.akhn by u0919_u094D.half_u0915_u094D_u0937.akhn.pres;
+    sub u0919_u094D.half u092E by u0919_u094D.half_u092E.pres;
+    sub u0919_u094D.half u0918 by u0919_u094D.half_u0918.pres;
+    sub u0919_u094D.half u0917 by u0919_u094D.half_u0917.pres;
+    sub u0919_u094D.half u0916 by u0919_u094D.half_u0916.pres;
+    sub u0919_u094D.half u0915 by u0919_u094D.half_u0915.pres;
+    sub u091B_u094D.half u0935 by u091B_u094D.half_u0935.pres;
+    sub u091C_u094D.half u091C_u094D.half by u091C_u094D.half_u091C_u094D.half.pres;
+    sub u091E_u094D.half u091C by u091E_u094D.half_u091C.pres;
+    sub u091E_u094D.half u091A by u091E_u094D.half_u091A.pres;
+    sub u091F_u094D.half u0935 by u091F_u094D.half_u0935.pres;
+    sub u091F_u094D.half u092F by u091F_u094D.half_u092F.pres;
+    sub u091F_u094D.half u0920 by u091F_u094D.half_u0920.pres;
+    sub u091F_u094D.half u091F by u091F_u094D.half_u091F.pres;
+    sub u0920_u094D.half u092F by u0920_u094D.half_u092F.pres;
+    sub u0920_u094D.half u0920 by u0920_u094D.half_u0920.pres;
+    sub u0921_u094D.half u092F by u0921_u094D.half_u092F.pres;
+    sub u0921_u094D.half u0922 by u0921_u094D.half_u0922.pres;
+    sub u0921_u094D.half u0921 by u0921_u094D.half_u0921.pres;
+    sub u0922_u094D.half u092F by u0922_u094D.half_u092F.pres;
+    sub u0922_u094D.half u0922 by u0922_u094D.half_u0922.pres;
+    sub u0924_u094D.half u0924_u094D.half by u0924_u094D.half_u0924_u094D.half.pres;
+    sub u0924_u094D.half u0924 by u0924_u094D.half_u0924.pres;
+    sub u0926_u094D.half u0935 by u0926_u094D.half_u0935.pres;
+    sub u0926_u094D.half u092F by u0926_u094D.half_u092F.pres;
+    sub u0926_u094D.half u092E by u0926_u094D.half_u092E.pres;
+    sub u0926_u094D.half u092D by u0926_u094D.half_u092D.pres;
+    sub u0926_u094D.half u092C by u0926_u094D.half_u092C.pres;
+    sub u0926_u094D.half u0927 by u0926_u094D.half_u0927.pres;
+    sub u0926_u094D.half u0926 by u0926_u094D.half_u0926.pres;
+    sub u0926_u094D.half u0918 by u0926_u094D.half_u0918.pres;
+    sub u0928_u094D.half u0928 by u0928_u094D.half_u0928.pres;
+    sub u092A_u094D.half u0924 by u092A_u094D.half_u0924.pres;
+    sub u0932_u094D.half u0932 by u0932_u094D.half_u0932.pres;
+    sub u0937_u094D.half u0920 by u0937_u094D.half_u0920.pres;
+    sub u0937_u094D.half u091F by u0937_u094D.half_u091F.pres;
+    sub u0938_u094D.half u0924_u0930_u094D.blwf.vatu by u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres;
+    sub u0939_u094D.half u0935 by u0939_u094D.half_u0935.pres;
+    sub u0939_u094D.half u0932 by u0939_u094D.half_u0932.pres;
+    sub u0939_u094D.half u092F by u0939_u094D.half_u092F.pres;
+    sub u0939_u094D.half u092E by u0939_u094D.half_u092E.pres;
+    sub u0939_u094D.half u0928 by u0939_u094D.half_u0928.pres;
+    sub u0939_u094D.half u0923 by u0939_u094D.half_u0923.pres;
+    sub u0936_u094D.half_u0930_u094D.blwf.vatu u0935 by u0936_u094D.half_u0930_u094D.blwf.vatu_u0935.pres;
+    sub u0936_u094D.half_u0930_u094D.blwf.vatu u0932 by u0936_u094D.half_u0930_u094D.blwf.vatu_u0932.pres;
+    sub u0936_u094D.half_u0930_u094D.blwf.vatu u0928 by u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres;
+    sub u0936_u094D.half_u0930_u094D.blwf.vatu u091A by u0936_u094D.half_u0930_u094D.blwf.vatu_u091A.pres;
+} pres68;
+lookup pres91 {
+    sub u093F' @pres2 by SignI_extended_1;
+    sub glyph206' @pres4 by u093F;
+    sub glyph206' @pres1 by SignI_extended_1;
+} pres91;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} pres;
+feature abvs { # Above-Base Substitutions
+ script deva; # Devanagari
+    sub u0940 u0930_u094D.rphf by u0940_u0930_u094D.rphf.abvs;
+    sub u0940 u0902 by u0940_u0902.abvs;
+    sub u0947 u0930_u094D.rphf by u0947_u0930_u094D.rphf.abvs;
+    sub u0947 u0902 by u0947_u0902.abvs;
+    sub u0948 u0930_u094D.rphf by u0948_u0930_u094D.rphf.abvs;
+    sub u0948 u0902 by u0948_u0902.abvs;
+    sub u094B u0930_u094D.rphf by u094B_u0930_u094D.rphf.abvs;
+    sub u094B u0902 by u094B_u0902.abvs;
+    sub u094C u0930_u094D.rphf by u094C_u0930_u094D.rphf.abvs;
+    sub u094C u0902 by u094C_u0902.abvs;
+    sub u0947_u0930_u094D.rphf.abvs u0902 by u0947_u0930_u094D.rphf.abvs_u0902.abvs;
+    sub u0948_u0930_u094D.rphf.abvs u0902 by u0948_u0930_u094D.rphf.abvs_u0902.abvs;
+    sub u0930_u094D.rphf u0902 by u0930_u094D.rphf_u0902.abvs;
+    sub u0940_u0930_u094D.rphf.abvs u0902 by u0940_u0930_u094D.rphf.abvs_u0902.abvs;
+    sub u094B_u0930_u094D.rphf.abvs u0902 by u094B_u0930_u094D.rphf.abvs_u0902.abvs;
+    sub u094C_u0930_u094D.rphf.abvs u0902 by u094C_u0930_u094D.rphf.abvs_u0902.abvs;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} abvs;
+feature akhn { # Akhands
+ script deva; # Devanagari
+    sub u0915 u094D u0937 by u0915_u094D_u0937.akhn;
+    sub u091C u094D u091E by u091C_u094D_u091E.akhn;
+    sub u0926 u094D u0927 u094D u0930 u094D u092F by lig_0926_0927_0930_092f;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} akhn;
+feature blwf { # Below-Base Forms
+ script deva; # Devanagari
+    sub u0930 u094D by u0930_u094D.blwf;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} blwf;
+feature blws { # Below-Base Substitutions
+ script deva; # Devanagari
+lookup blws13 {
+    sub u0939 u0941' by glyph242;
+} blws13;
+lookup blws14 {
+    sub u0915_u094D.half_u0915.pres u0941' by glyph242;
+} blws14;
+lookup blws15 {
+    sub u0915_u094D.half_u0932.pres u0941' by glyph242;
+} blws15;
+lookup blws16 {
+    sub u0915_u094D.half_u0935.pres u0941' by glyph242;
+} blws16;
+lookup blws17 {
+    sub u0919_u094D.half_u0915.pres u0941' by glyph242;
+} blws17;
+lookup blws18 {
+    sub u0919_u094D.half_u0916.pres u0941' by glyph242;
+} blws18;
+lookup blws19 {
+    sub u0919_u094D.half_u0917.pres u0941' by glyph242;
+} blws19;
+lookup blws20 {
+    sub u0919_u094D.half_u0918.pres u0941' by glyph242;
+} blws20;
+lookup blws21 {
+    sub u0919_u094D.half_u092E.pres u0941' by glyph242;
+} blws21;
+lookup blws22 {
+    sub u0919_u094D.half_u0915_u094D_u0937.akhn.pres u0941' by glyph242;
+} blws22;
+lookup blws23 {
+    sub u091F_u094D.half_u091F.pres u0941' by glyph242;
+} blws23;
+lookup blws24 {
+    sub u091F_u094D.half_u0920.pres u0941' by glyph242;
+} blws24;
+lookup blws25 {
+    sub u091F_u094D.half_u0935.pres u0941' by glyph242;
+} blws25;
+lookup blws26 {
+    sub u0920_u094D.half_u0920.pres u0941' by glyph242;
+} blws26;
+lookup blws27 {
+    sub u0921_u094D.half_u0921.pres u0941' by glyph242;
+} blws27;
+lookup blws28 {
+    sub u0921_u094D.half_u0922.pres u0941' by glyph242;
+} blws28;
+lookup blws29 {
+    sub u0922_u094D.half_u0922.pres u0941' by glyph242;
+} blws29;
+lookup blws30 {
+    sub u092A_u094D.half_u0932.pres u0941' by glyph242;
+} blws30;
+lookup blws31 {
+    sub u092B_u094D.half_u0932.pres u0941' by glyph242;
+} blws31;
+lookup blws32 {
+    sub u0932_u094D.half_u0932.pres u0941' by glyph242;
+} blws32;
+lookup blws33 {
+    sub u0937_u094D.half_u091F.pres u0941' by glyph242;
+} blws33;
+lookup blws34 {
+    sub u0937_u094D.half_u0920.pres u0941' by glyph242;
+} blws34;
+lookup blws35 {
+    sub u0939 u0942' by glyph243;
+} blws35;
+lookup blws36 {
+    sub u0915_u094D.half_u0915.pres u0942' by glyph243;
+} blws36;
+lookup blws37 {
+    sub u0915_u094D.half_u0932.pres u0942' by glyph243;
+} blws37;
+lookup blws38 {
+    sub u0915_u094D.half_u0935.pres u0942' by glyph243;
+} blws38;
+lookup blws39 {
+    sub u0919_u094D.half_u0915.pres u0942' by glyph243;
+} blws39;
+lookup blws40 {
+    sub u0919_u094D.half_u0916.pres u0942' by glyph243;
+} blws40;
+lookup blws41 {
+    sub u0919_u094D.half_u0917.pres u0942' by glyph243;
+} blws41;
+lookup blws42 {
+    sub u0919_u094D.half_u0918.pres u0942' by glyph243;
+} blws42;
+lookup blws43 {
+    sub u0919_u094D.half_u092E.pres u0942' by glyph243;
+} blws43;
+lookup blws44 {
+    sub u0919_u094D.half_u0915_u094D_u0937.akhn.pres u0942' by glyph243;
+} blws44;
+lookup blws45 {
+    sub u091F_u094D.half_u091F.pres u0942' by glyph243;
+} blws45;
+lookup blws46 {
+    sub u091F_u094D.half_u0920.pres u0942' by glyph243;
+} blws46;
+lookup blws47 {
+    sub u091F_u094D.half_u0935.pres u0942' by glyph243;
+} blws47;
+lookup blws48 {
+    sub u0921_u094D.half_u0921.pres u0942' by glyph243;
+} blws48;
+lookup blws49 {
+    sub u0921_u094D.half_u0922.pres u0942' by glyph243;
+} blws49;
+lookup blws50 {
+    sub u0922_u094D.half_u0922.pres u0942' by glyph243;
+} blws50;
+lookup blws51 {
+    sub u092A_u094D.half_u0932.pres u0942' by glyph243;
+} blws51;
+lookup blws52 {
+    sub u092B_u094D.half_u0932.pres u0942' by glyph243;
+} blws52;
+lookup blws53 {
+    sub u0932_u094D.half_u0932.pres u0942' by glyph243;
+} blws53;
+lookup blws54 {
+    sub u0937_u094D.half_u091F.pres u0942' by glyph243;
+} blws54;
+lookup blws55 {
+    sub u0937_u094D.half_u0920.pres u0942' by glyph243;
+} blws55;
+lookup blws56 {
+    sub u0926 u0943 by u0926_u0943.blws;
+    sub u0939 u0943 by u0939_u0943.blws;
+    sub u0930_u094D.blwf u0942 by u0930_u094D.blwf_u0942.blws;
+    sub u0930_u094D.blwf u0941 by u0930_u094D.blwf_u0941.blws;
+} blws56;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} blws;
+feature half { # Half Forms
+ script deva; # Devanagari
+    sub u0915 u094D by u0915_u094D.half;
+    sub u0916 u094D by u0916_u094D.half;
+    sub u0917 u094D by u0917_u094D.half;
+    sub u0918 u094D by u0918_u094D.half;
+    sub u0919 u094D by u0919_u094D.half;
+    sub u091A u094D by u091A_u094D.half;
+    sub u091B u094D by u091B_u094D.half;
+    sub u091C u094D by u091C_u094D.half;
+    sub u091D u094D by u091D_u094D.half;
+    sub u091E u094D by u091E_u094D.half;
+    sub u091F u094D by u091F_u094D.half;
+    sub u0920 u094D by u0920_u094D.half;
+    sub u0921 u094D by u0921_u094D.half;
+    sub u0922 u094D by u0922_u094D.half;
+    sub u0923 u094D by u0923_u094D.half;
+    sub u0924 u094D by u0924_u094D.half;
+    sub u0925 u094D by u0925_u094D.half;
+    sub u0926 u094D by u0926_u094D.half;
+    sub u0927 u094D by u0927_u094D.half;
+    sub u0928 u094D by u0928_u094D.half;
+    sub u0929 u094D by u0929_u094D.half;
+    sub u092A u094D by u092A_u094D.half;
+    sub u092B u094D by u092B_u094D.half;
+    sub u092C u094D by u092C_u094D.half;
+    sub u092D u094D by u092D_u094D.half;
+    sub u092E u094D by u092E_u094D.half;
+    sub u092F u094D by u092F_u094D.half;
+    sub u0931 u094D by u0931_u094D.half;
+    sub u0932 u094D by u0932_u094D.half;
+    sub u0933 u094D by u0933_u094D.half;
+    sub u0934 u094D by u0934_u094D.half;
+    sub u0935 u094D by u0935_u094D.half;
+    sub u0936 u094D by u0936_u094D.half;
+    sub u0937 u094D by u0937_u094D.half;
+    sub u0938 u094D by u0938_u094D.half;
+    sub u0939 u094D by u0939_u094D.half;
+    sub u0958 u094D by u0958_u094D.half;
+    sub u0959 u094D by u0959_u094D.half;
+    sub u095A u094D by u095A_u094D.half;
+    sub u095B u094D by u095B_u094D.half;
+    sub u095E u094D by u095E_u094D.half;
+    sub u0936_u0930_u094D.blwf.vatu u094D by u0936_u094D.half_u0930_u094D.blwf.vatu;
+    sub u0915_u094D_u0937.akhn u094D by u0915_u094D_u0937.akhn_u094D.half;
+    sub u091C_u094D_u091E.akhn u094D by u091C_u094D_u091E.akhn_u094D.half;
+    sub u0919_u094D.half u0915_u094D.half by u0919_u094D.half_u0915_u094D.half.half;
+    sub u0924_u0930_u094D.blwf.vatu u094D by u0924_u094D.half_u0930_u094D.blwf.vatu;
+    sub nepali_jha_091d u094D by nepali_jha_half;
+    sub mr_la u094D by u0932_u094D.half;
+    sub mr_sha u094D by u0936_u094D.half;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} half;
+feature nukt { # Nukta Forms
+ script deva; # Devanagari
+    sub u0915 u093C by u0958;
+    sub u0916 u093C by u0959;
+    sub u0917 u093C by u095A;
+    sub u091C u093C by u095B;
+    sub u0921 u093C by u095C;
+    sub u0922 u093C by u095D;
+    sub u0928 u093C by u0929;
+    sub u092B u093C by u095E;
+    sub u092F u093C by u095F;
+    sub u0930 u093C by u0931;
+    sub u0933 u093C by u0934;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} nukt;
+feature psts { # Post-base Substitutions
+ script deva; # Devanagari
+lookup psts69 {
+    sub u092B_u0930_u094D.blwf.vatu [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts69;
+lookup psts70 {
+    sub u0915_u094D.half_u0915.pres [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts70;
+lookup psts71 {
+    sub u0915_u094D.half_u0924.pres [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts71;
+lookup psts72 {
+    sub u0915_u094D.half_u0932.pres [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts72;
+lookup psts73 {
+    sub u0915_u094D.half_u0935.pres [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts73;
+lookup psts74 {
+    sub u092B_u094D.half_u0932.pres [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts74;
+lookup psts75 {
+    sub u090B [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts75;
+lookup psts76 {
+    sub u0960 [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts76;
+lookup psts77 {
+    sub u0915 [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts77;
+lookup psts78 {
+    sub u0958 [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts78;
+lookup psts79 {
+    sub u0915_u0930_u094D.blwf.vatu [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts79;
+lookup psts80 {
+    sub u092B [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts80;
+lookup psts81 {
+    sub u095E [u0940 u0940_u0902.abvs u0940_u0930_u094D.rphf.abvs u0940_u0930_u094D.rphf.abvs_u0902.abvs]' by [glyph236 glyph237 glyph238 glyph239];
+} psts81;
+lookup psts82 {
+    sub u0930 u0942 by u0930_u0942.psts;
+    sub u0930 u0941 by u0930_u0941.psts;
+} psts82;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} psts;
+feature rphf { # Reph Form
+ script deva; # Devanagari
+    sub u0930 u094D by u0930_u094D.rphf;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} rphf;
+feature vatu { # Vattu Variants
+ script deva; # Devanagari
+    sub u0915 u0930_u094D.blwf by u0915_u0930_u094D.blwf.vatu;
+    sub u0916 u0930_u094D.blwf by u0916_u0930_u094D.blwf.vatu;
+    sub u0917 u0930_u094D.blwf by u0917_u0930_u094D.blwf.vatu;
+    sub u0918 u0930_u094D.blwf by u0918_u0930_u094D.blwf.vatu;
+    sub u091A u0930_u094D.blwf by u091A_u0930_u094D.blwf.vatu;
+    sub u091C u0930_u094D.blwf by u091C_u0930_u094D.blwf.vatu;
+    sub u091D u0930_u094D.blwf by u091D_u0930_u094D.blwf.vatu;
+    sub u091E u0930_u094D.blwf by u091E_u0930_u094D.blwf.vatu;
+    sub u0923 u0930_u094D.blwf by u0923_u0930_u094D.blwf.vatu;
+    sub u0924 u0930_u094D.blwf by u0924_u0930_u094D.blwf.vatu;
+    sub u0925 u0930_u094D.blwf by u0925_u0930_u094D.blwf.vatu;
+    sub u0926 u0930_u094D.blwf by u0926_u0930_u094D.blwf.vatu;
+    sub u0927 u0930_u094D.blwf by u0927_u0930_u094D.blwf.vatu;
+    sub u0928 u0930_u094D.blwf by u0928_u0930_u094D.blwf.vatu;
+    sub u092A u0930_u094D.blwf by u092A_u0930_u094D.blwf.vatu;
+    sub u092B u0930_u094D.blwf by u092B_u0930_u094D.blwf.vatu;
+    sub u092C u0930_u094D.blwf by u092C_u0930_u094D.blwf.vatu;
+    sub u092D u0930_u094D.blwf by u092D_u0930_u094D.blwf.vatu;
+    sub u092E u0930_u094D.blwf by u092E_u0930_u094D.blwf.vatu;
+    sub u092F u0930_u094D.blwf by u092F_u0930_u094D.blwf.vatu;
+    sub u0932 u0930_u094D.blwf by u0932_u0930_u094D.blwf.vatu;
+    sub u0935 u0930_u094D.blwf by u0935_u0930_u094D.blwf.vatu;
+    sub u0936 u0930_u094D.blwf by u0936_u0930_u094D.blwf.vatu;
+    sub u0937 u0930_u094D.blwf by u0937_u0930_u094D.blwf.vatu;
+    sub u0938 u0930_u094D.blwf by u0938_u0930_u094D.blwf.vatu;
+    sub u0939 u0930_u094D.blwf by u0939_u0930_u094D.blwf.vatu;
+    sub u095E u0930_u094D.blwf by u095E_u0930_u094D.blwf.vatu;
+    sub u0915_u094D_u0937.akhn u0930_u094D.blwf by u0915_u094D_u0937.akhn_u0930_u094D.blwf.vatu;
+    sub u091C_u094D_u091E.akhn u0930_u094D.blwf by u091C_u094D_u091E.akhn_u0930_u094D.blwf.vatu;
+    sub u0924_u094D.half u0930_u094D.blwf by u0924_u094D.half_u0930_u094D.blwf.vatu;
+    sub u0936_u094D.half u0930_u094D.blwf by u0936_u094D.half_u0930_u094D.blwf.vatu;
+    sub mr_la u0930_u094D.blwf by u0932_u0930_u094D.blwf.vatu;
+    sub mr_sha u0930_u094D.blwf by u0936_u0930_u094D.blwf.vatu;
+    sub mr_sha_half u0930 by u0936_u0930_u094D.blwf.vatu;
+ language NEP ; # Nepali
+ language MAR ; # Marathi
+} vatu;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
